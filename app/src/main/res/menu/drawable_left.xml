@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp0" >
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+    </group>
+
+    <group android:id="@+id/grp1" >
+        <item
+            android:id="@+id/navigation_contacts"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="@string/menu_contacts" />
+    </group>
+
+    <group android:id="@+id/grp2" >
+        <item
+            android:id="@+id/navigation_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/menu_profile" />
+    </group>
+
+    <group android:id="@+id/grp3" >
+        <item
+            android:id="@+id/navigation_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/setting" />
+    </group>
+
+    <group android:id="@+id/grp4" >
+        <item
+            android:id="@+id/navigation_map"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="@string/map" />
+    </group>
+
+    <group android:id="@+id/grp5" >
+        <item
+            android:id="@+id/navigation_logout"
+            android:icon="@drawable/ic_arrow_back_black_24dp"
+            android:title="@string/log_out" />
+    </group>
+</menu>

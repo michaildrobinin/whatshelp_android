@@ -1,0 +1,160 @@
+<!--All contents need to be translated.
+    ex:
+        WhatsHelp
+        open
+        ...
+
+        SELECT OPTION
+        unemplyed
+        ...
+
+    You don't need to translate the following words.
+        ex;
+            name="app_name"
+            name="drawer_open"
+            ...
+
+ if it doesn't make sense, please let me know
+ Thanks
+-->
+
+<resources>
+    <string name="app_name">WhatsHelp</string>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="Error_Title">Error</string>
+    <string name="progress_title">Waiting...</string>
+    <string name="map">Map</string>
+    <string name="setting">Setting</string>
+    <string name="e_mail">E-mail</string>
+    <string name="welcome_to_sos">Welcome to WhatsHelp</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="passwordconfirm">Confrim Password</string>
+    <string name="or">OR</string>
+    <string name="click_here_to_sign_up">Click here to Sign Up</string>
+    <string name="sign_up_sos">Sign up WhatsHelp</string>
+    <string name="sign_up">Sign up</string>
+    <string name="city">City</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="email_sent_alert">We have sent you E-mail to you. Log in again, please</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+
+    <string-array name="job">
+        <item>SELECT OPTION</item>
+        <item>unemployed</item>
+        <item>student</item>
+        <item>worker</item>
+        <item>employee</item>
+        <item>manager</item>
+        <item>teacher</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="study">
+        <item>SELECT OPTION</item>
+        <item>Scuola media</item>
+        <item>Scuola superiore</item>
+        <item>Università</item>
+    </string-array>
+
+    <!--Google Map Key-->
+    <string name="google_map_key">
+        AIzaSyAj4BEnChUCNu9PICm-84Y3aZWNOL7jR10
+    </string>
+    <string name="change_e_mail">Change E-mail</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="author">Author</string>
+    <string name="title">Title</string>
+    <string name="search">Search</string>
+    <string name="change_search_value">Change Search Value</string>
+    <string name="content">Content</string>
+    <string name="requried_field">Required Field</string>
+    <string name="password_doesnot_match">Password doesn\'t match</string>
+    <string name="token_invalid">Authentication Invalid. Log in again, please</string>
+    <string name="error_on_server">Error on server. Try again.</string>
+    <string name="title_activity_map_marker">MapMarkerActivity</string>
+    <string name="log_out">Log out</string>
+    <string name="desc">Description</string>
+    <string name="link_privacy">
+        Agree to privacy and terms
+    </string>
+    <string name="privacy_and_terms">Privacy and terms</string>
+    <string name="title_activity_privacy_terms">PrivacyTermsActivity</string>
+    <string name="agree_to_privacy_and_terms">Agree to privacy and terms</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_sos">WhatsHelp</string>
+    <string name="user_id">User ID</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="age">Age</string>
+    <string name="sport">Sport</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="title_activity_distance">DistanceActivity</string>
+    <string name="title_activity_contact_list">ContactListActivity</string>
+    <string name="max_distance">Maximum Distance</string>
+    <string name="distance_from_me">Distance from Me</string>
+    <string name="contacts_restriction">Contacts Restriction</string>
+    <string name="title_activity_users_from_me">UsersFromMeActivity</string>
+    <string name="button_call">Call</string>
+    <string name="button_chat">Chat</string>
+    <string name="button_sent">Sent</string>
+    <string name="button_request">Request</string>
+    <string name="button_approve">Approve</string>
+    <string name="menu_contacts">Contacts</string>
+    <string name="title_activity_contact_add">ContactAddActivity</string>
+    <string name="search_tint">User Name or Phone Number</string>
+    <string name="restriction">Restriction</string>
+    <string name="button_save">Save</string>
+    <string name="distance_way">Distance Way</string>
+    <string name="extra_number">Extra Number</string>
+    <string name="extra_content">You can input the extra Contact info</string>
+    <string name="extra_phone">Extra Phone</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="from_me">15 users in around 500m</string>
+    <string name="married">Married?</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="button_get_phone">Get My Phone</string>
+    <string name="job">Job:</string>
+    <string name="study">Study:</string>
+    <string name="distance">Distance</string>
+    <string name="button_back">Back</string>
+    <string name="button_continue">Continue</string>
+    <string name="nick_name">Nick Name</string>
+    <string name="group_name">Group:</string>
+    <string name="click_detail">Click to see detail</string>
+    <string name="you_select">You can select</string>
+    <string name="number_sos">users for WhatsHelp</string>
+    <string name="warning">Warning</string>
+    <string name="needs_permission">WhatsHelp app needs these permission to work. Allow them, please.</string>
+    <string name="button_ok">Ok</string>
+    <string name="confirm">Confirm</string>
+    <string name="remove_contact">Do you really remove this contact?</string>
+    <string name="turnon_gps">Turn on GPS to use map, please</string>
+    <string name="empty_error_phone">Please input your Phone Number</string>
+    <string name="empty_error_spiner">Please choose one of the option.</string>
+    <string name="select_option">SELECT OPTION</string>
+    <string name="gps_error">GPS is disabled in your device. Would you like to enable it?</string>
+    <string name="button_gps_setting">Settings</string>
+    <string name="exit_app_alert">Do you want to exit SOS App?</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="error_without_gps">Application can\'t work correctly without gps</string>
+    <string name="html_agree_terms"><![CDATA[Agree to <font color=#ff7575>privacy and terms</font>]]></string>
+    <string name="agree_check_alert">Agree with privacy and terms to use WhatsHelp app</string>
+    <string name="substring_users_around">users in around</string>
+    <string name="alert">Alert</string>
+    <string name="substring1_fromme">There are</string>
+    <string name="substring2_fromme">users in</string>
+    <string name="substring3_fromme">km from you.</string>
+    <string name="detail_view">Detail View</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context="sos.rock.sosapp.Main.Home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_20dp"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0dp"
+            android:layout_weight="1"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btSos"
+            android:layout_width="@dimen/dimen_200dp"
+            android:layout_height="@dimen/dimen_200dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:background="@drawable/button_sos_background"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/btSpeak"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/rec" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flTopAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivTopAds"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ads_top"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/ibTopClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:background="@drawable/ic_close_black_24dp"
+            android:layout_margin="@dimen/dimen_10dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flBottomAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/ivBottomAds"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/ads_bottom"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/ibBottomClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:background="@drawable/ic_close_black_24dp"
+            android:layout_margin="@dimen/dimen_10dp"/>
+    </FrameLayout>
+
+</FrameLayout>
